@@ -14,24 +14,79 @@ const levels = [
 // Array of quiz questions
 const questions = [
     {
-        question: "Who is known as the Father of the Nation in India?",
-        options: ["Jawaharlal Nehru", "Mahatma Gandhi", "Subhas Chandra Bose", "Sardar Patel"],
-        answer: 1 // Correct answer index
+        question: "What is the capital of Japan?",
+        options: ["Seoul", "Bangkok", "Beijing", "Tokyo"],
+        answer: 3 // Correct: Tokyo
     },
     {
-        question: "What is the capital of France?",
-        options: ["Berlin", "Madrid", "Paris", "Lisbon"],
-        answer: 2
+        question: "Who invented the light bulb?",
+        options: ["Nikola Tesla", "Thomas Edison", "Alexander Graham Bell", "Isaac Newton"],
+        answer: 1 // Correct: Thomas Edison
     },
     {
-        question: "Which planet is known as the Red Planet?",
-        options: ["Earth", "Mars", "Jupiter", "Saturn"],
-        answer: 1
+        question: "Which gas do plants absorb from the atmosphere?",
+        options: ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+        answer: 2 // Correct: Carbon Dioxide
     },
     {
-        question: "Which is the largest mammal?",
-        options: ["Elephant", "Blue Whale", "Giraffe", "Polar Bear"],
-        answer: 1
+        question: "Which is the largest ocean in the world?",
+        options: ["Indian Ocean", "Atlantic Ocean", "Pacific Ocean", "Arctic Ocean"],
+        answer: 2 // Correct: Pacific Ocean
+    },
+    {
+        question: "What is the hardest natural substance on Earth?",
+        options: ["Gold", "Iron", "Diamond", "Platinum"],
+        answer: 2 // Correct: Diamond
+    },
+    {
+        question: "Who discovered gravity?",
+        options: ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Stephen Hawking"],
+        answer: 1 // Correct: Isaac Newton
+    },
+    {
+        question: "Which is the longest river in the world?",
+        options: ["Amazon", "Nile", "Yangtze", "Mississippi"],
+        answer: 1 // Correct: Nile River
+    },
+    {
+        question: "What is the chemical symbol for water?",
+        options: ["O2", "H2O", "CO2", "NaCl"],
+        answer: 1 // Correct: H2O
+    },
+    {
+        question: "How many continents are there on Earth?",
+        options: ["5", "6", "7", "8"],
+        answer: 2 // Correct: 7
+    },
+    {
+        question: "Which bird is known for its ability to mimic human speech?",
+        options: ["Parrot", "Crow", "Eagle", "Pigeon"],
+        answer: 0 // Correct: Parrot
+    },
+    {
+        question: "What is the national animal of India?",
+        options: ["Lion", "Elephant", "Tiger", "Peacock"],
+        answer: 2 // Correct: Tiger
+    },
+    {
+        question: "Which is the smallest planet in our solar system?",
+        options: ["Mercury", "Venus", "Mars", "Pluto"],
+        answer: 0 // Correct: Mercury
+    },
+    {
+        question: "Who wrote the play 'Hamlet'?",
+        options: ["William Wordsworth", "William Shakespeare", "Jane Austen", "Mark Twain"],
+        answer: 1 // Correct: William Shakespeare
+    },
+    {
+        question: "Which country is famous for the Great Wall?",
+        options: ["India", "Japan", "China", "Russia"],
+        answer: 2 // Correct: China
+    },
+    {
+        question: "What is the capital of the United States?",
+        options: ["Los Angeles", "New York", "Washington, D.C.", "Chicago"],
+        answer: 2 // Correct: Washington, D.C.
     }
 ];
 
