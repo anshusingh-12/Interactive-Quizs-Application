@@ -1,0 +1,202 @@
+/* Reset default padding and margin for all elements */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Style for welcome and result screens */
+#welcomeScreen, #resultScreen {
+    width: 100%;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-image: url("./assets/giphy.gif"); /* Background image */
+    background-size: cover; /* Cover entire area */
+    background-position: center; /* Center the background */
+}
+
+/* Container for the username input and results */
+.container {
+    width: 400px;
+    height: auto;
+    background-color: #22074dbc; /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect for a glass-like UI */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 1.5rem 2rem;
+    border-radius: 30px; /* Rounded corners */
+}
+
+/* Label styles */
+.container label {
+    font-weight: 700; /* Bold text */
+}
+
+/* Input field styling */
+.container input {
+    width: 100%;
+    height: 40px;
+    outline: none; /* Remove default focus outline */
+    padding: 0 1rem; /* Inner spacing */
+    margin: 20px 0; /* Spacing between elements */
+    background-color: #eee; /* Light gray background */
+    border: none; /* Remove border */
+    border-radius: 7px; /* Rounded corners */
+    color: #22074d; /* Text color */
+    font-size: 1rem;
+}
+
+/* General button styling */
+.button {
+    background: linear-gradient(#100241, black); /* Gradient background */
+    padding: 12px 0px;
+    width: 150px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase; /* Uppercase text */
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    padding: 5px;
+}
+
+/* Utility class to hide elements */
+.hide {
+    display: none !important;
+}
+
+/* Main quiz area */
+#quizArea {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+/* Question area styling */
+.questionArea {
+    width: 75%; /* Takes 75% of the screen */
+    height: 100vh;
+    background-image: url("./assets/bg.jpeg"); /* Background image */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end; /* Align content to the bottom */
+}
+
+/* Level (prize) area styling */
+.levelArea {
+    width: 25%; /* Takes 25% of the screen */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #100241;
+    color: white;
+}
+
+/* Styling for the levels list */
+#levelList {
+    padding: 20px;
+    list-style: none; /* Remove bullet points */
+}
+
+/* Styling for each level item */
+.level {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 7px; /* Rounded corners */
+}
+
+/* Level number styling */
+.levelNumber {
+    font-size: 20px;
+    font-weight: 300;
+    width: 30%;
+}
+
+/* Prize amount styling */
+.levelAmount {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* Highlight the active (current) level */
+.level.active {
+    background-color: teal;
+}
+
+/* Styling for the question display box */
+#questionStatement {
+    width: 80%;
+    background: linear-gradient(#100241, black);
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Center question container */
+.question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Answer options container */
+#answers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Wrap answers if needed */
+    margin-top: 10px;
+}
+
+/* Individual answer button styling */
+.answer {
+    width: 38%;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(#100241, black);
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 10px 20px 10px; /* Spacing around answers */
+    cursor: pointer;
+}
+
+/* Answer button hover effect */
+.answer:hover {
+    background: mediumblue;
+}
+
+/* Result screen title styling */
+#resultScreen h1 {
+    padding: 20px;
+}
+
+/* Result screen subheading styling */
+#resultScreen h3 {
+    padding: 10px;
+}
+
+/* Timer styling */
+#timer {
+    font-weight: 500;
+    color: white;
+    padding: 5px;
+}
