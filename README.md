@@ -42,3 +42,4 @@ This KBC Quiz Game is an excellent example of frontend web development using HTM
 *OUTPUT*
 ![Image](https://github.com/user-attachments/assets/c3a1693c-7e57-4ca3-b5f1-edee4dbb4582)
 ![Image](https://github.com/user-attachments/assets/4efad202-cefa-4752-af53-2e15a1592d09)
+![Image](https://github.com/user-attachments/assets/6a57a29d-a0fd-4aa6-adec-81b46ebec357)
